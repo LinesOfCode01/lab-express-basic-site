@@ -1,0 +1,13 @@
+body {
+  color: green;
+  background-color: orange;
+}
+
+.hero {
+  background-image: url("../images/BillQuote.jpg");
+  height: 400px;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
