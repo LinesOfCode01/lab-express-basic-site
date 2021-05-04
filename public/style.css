@@ -3,9 +3,8 @@ body {
   background-color: orange;
 }
 
-.hero {
-  background-image: url("../images/BillQuote.jpg");
-  height: 400px;
+.person {
+  height: 3500px;
   background-repeat: no-repeat;
   display: flex;
   justify-content: center;
