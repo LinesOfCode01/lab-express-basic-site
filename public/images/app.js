@@ -19,19 +19,4 @@ app.get("/Photo-Gallery", (request, response, next) =>
   response.sendFile(__dirname + "/views/Photo-Gallery.html")
 );
 
-// app.get("/home", (request, response, next) => {
-//   console.log(request);
-//   response.send("<h1>Welcome Visitors</h1>");
-// });
-
-// app.get("/About", (request, response, next) => {
-//   console.log(request);
-//   response.send("<h1>The person</h1>");
-// });
-
-// app.get("/works", (request, response, next) => {
-//   console.log(request);
-//   response.send("Amazing Projects");
-// });
-
 app.listen(3000);
